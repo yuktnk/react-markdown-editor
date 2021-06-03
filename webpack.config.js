@@ -18,5 +18,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     publicPath: 'dist/',
+  },
+  devServer: {
+    publicPath: '/dist/', // ビルドしたファイルにアクセスするためのパス
+    hot: true,            // ファイルを変更すると自動的にブラウザに反映させるフラグ
+    open: true,           // 起動時にブラウザで開くフラグ
   }
 }

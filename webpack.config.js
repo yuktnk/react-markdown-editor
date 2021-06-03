@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   module: {
     rules: [ // webpack に対してビルド時に追加で行う処理を記述
       {

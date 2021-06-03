@@ -2,6 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node", // moduleの解決方法
     "outDir": "./dist/", // 出力先のディレクトリパス
-    "target": "ES2015" // 出力対象となるJavaScriptのバージョン
+    "target": "ES2015", // 出力対象となるJavaScriptのバージョン
+    "jsx": "react" // React でビューを作る際には JSX を使うため、それを解決するための設定
   }
 }

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node", // moduleの解決方法
+    "outDir": "./dist/", // 出力先のディレクトリパス
+    "target": "ES2015" // 出力対象となるJavaScriptのバージョン
+  }
+}

@@ -47,9 +47,10 @@ const MemoText = styled.div`
   white-space: nowrap;
 `;
 
-interface props {
+interface Props {
   setText: (text: string) => void;
 }
+
 export const History: React.FC<Props> = (props) => {
   const { setText } = props;
   const [memos, setMemos] = useState<MemoRecord[]>([]);

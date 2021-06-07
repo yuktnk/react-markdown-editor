@@ -1,4 +1,4 @@
 # react-markdown-editor
 
-## GitHub Pages
+### GitHub Pages 
 https://yuktnk.github.io/react-markdown-editor/
